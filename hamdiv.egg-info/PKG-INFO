@@ -1,3 +1,39 @@
+Metadata-Version: 2.4
+Name: hamdiv
+Version: 0.1.0
+Summary: Hamiltonian diversity and molecular diversity metrics implementation
+Author: HamDiv Authors
+License: MIT
+Project-URL: Homepage, https://github.com/EliLillyCo/HamDiv
+Project-URL: Repository, https://github.com/EliLillyCo/HamDiv
+Keywords: chemistry,molecular diversity,hamiltonian,cheminformatics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: rdkit
+Requires-Dist: tqdm
+Requires-Dist: networkx
+Requires-Dist: python-tsp
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Dynamic: license-file
+
 # HamDiv
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)

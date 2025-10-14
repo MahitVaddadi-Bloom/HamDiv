@@ -1,0 +1,6 @@
+numpy
+rdkit
+tqdm
+networkx
+python-tsp
+pandas

@@ -1,0 +1,13 @@
+numpy
+rdkit
+tqdm
+networkx
+python-tsp
+pandas
+
+[dev]
+pytest
+pytest-cov
+black
+isort
+flake8
