@@ -7,15 +7,57 @@ HamDiv provides an implementation of **Hamiltonian diversity**, together with al
 
 ## Installation
 
-### Quick Setup
+### Quick Setup (New Environment)
 
-Run the setup script to install HamDiv with all dependencies:
+Run the setup script to create a new virtual environment and install:
 
 ```bash
 ./setup.sh
 ```
 
-### Manual Installation with uv
+### Install into Existing Environment
+
+#### Using uv (Recommended)
+
+If you have an existing uv environment:
+```bash
+# Activate your existing environment
+source /path/to/your/.venv/bin/activate
+# Install the package
+uv pip install -e .
+```
+
+#### Using conda/mamba
+
+If you have an existing conda or mamba environment:
+```bash
+# Activate your conda environment
+conda activate your_env_name
+# or: mamba activate your_env_name
+
+# Install dependencies
+conda install numpy rdkit pandas tqdm networkx
+# or: mamba install numpy rdkit pandas tqdm networkx
+
+# Install python-tsp via pip (not available in conda)
+pip install python-tsp
+
+# Install this package
+pip install -e .
+```
+
+#### Using regular pip
+
+For any Python environment:
+```bash
+# Activate your environment
+source your_env/bin/activate
+
+# Install this package (dependencies will be installed automatically)
+pip install -e .
+```
+
+### Manual Installation (New Environment)
 
 1. Create a virtual environment:
 ```bash
