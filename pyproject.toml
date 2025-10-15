@@ -26,12 +26,14 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Chemistry",
 ]
 dependencies = [
-    "numpy",
+    "numpy>=1.26.4",
     "rdkit",
     "tqdm",
-    "networkx", 
+    "networkx>=3.3,<4.0", 
     "python-tsp",
     "pandas",
+    "click>=8.0.0",
+    "rich>=12.0.0",
 ]
 
 [project.optional-dependencies]
@@ -42,6 +44,9 @@ dev = [
     "isort",
     "flake8",
 ]
+
+[project.scripts]
+hamdiv = "hamdiv.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/EliLillyCo/HamDiv"

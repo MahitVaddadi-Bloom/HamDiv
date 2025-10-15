@@ -1,9 +1,11 @@
-numpy
+numpy>=1.26.4
 rdkit
 tqdm
-networkx
+networkx<4.0,>=3.3
 python-tsp
 pandas
+click>=8.0.0
+rich>=12.0.0
 
 [dev]
 pytest

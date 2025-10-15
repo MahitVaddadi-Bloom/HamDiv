@@ -3,10 +3,12 @@ README.md
 pyproject.toml
 hamdiv/__init__.py
 hamdiv/additional_term.py
+hamdiv/cli.py
 hamdiv/diversity.py
 hamdiv/utils.py
 hamdiv.egg-info/PKG-INFO
 hamdiv.egg-info/SOURCES.txt
 hamdiv.egg-info/dependency_links.txt
+hamdiv.egg-info/entry_points.txt
 hamdiv.egg-info/requires.txt
 hamdiv.egg-info/top_level.txt
